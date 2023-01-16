@@ -5,7 +5,7 @@ export default function Main() {
   return (
     <>
         <header>
-          <div class="nav">
+          <div className="nav">
           <ul>
             <li ><NavLink to="/bootstrap">Bootstrap</NavLink></li>
             <li><NavLink to="/mui">Material UI</NavLink></li>

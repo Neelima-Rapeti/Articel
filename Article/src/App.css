@@ -62,3 +62,27 @@ figure {
   max-width: 50%;
   padding: 0.5em;
 }
+
+.hljs-string {
+  color: darkgreen;
+}
+
+.hljs-keyword {
+  color: red;
+}
+
+.hljs-function {
+  font-weight: bold;
+}
+
+.hljs-tag {
+  color: blue;
+}
+
+.hljs-name {
+  font-weight: bold;
+}
+
+.hljs-tag.hljs-string {
+  color:rgb(136, 0, 0);
+}
