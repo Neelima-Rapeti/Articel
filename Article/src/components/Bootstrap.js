@@ -1,13 +1,8 @@
 import React from 'react'
-import Bootstrap from './components/Bootstrap';
 export default function Bootstrap() {
   return (
     
     <div>Bootstrap
-       <head>
-    <title>Bootstrap and React</title>
-  </head>
-  <body>
     <h1>Bootstrap and React</h1>
     <p>Bootstrap is a popular front-end development framework that provides a pre-designed set of components and layout options for building responsive, mobile-first websites. React is a JavaScript library for building user interfaces. Together, Bootstrap and React can be used to create powerful and responsive web applications.</p>
     <h2>Advantages of Using Bootstrap with React</h2>
@@ -23,7 +18,6 @@ export default function Bootstrap() {
     <p>One thing to keep in mind when using Bootstrap with React is that it may not always be the best choice for every project. While Bootstrap can be a great tool for quickly building UI components and creating a responsive layout, it may not be the best choice for projects that require a lot of custom design work or that need to be highly optimized for performance.</p>
     <h2>Conclusion</h2>
     <p>In conclusion, Bootstrap and React are powerful tools for building responsive and professional-looking web applications. By combining the pre-designed UI components in Bootstrap with the component-based architecture of React, developers can create powerful and responsive web applications quickly and easily.</p>
-  </body>
     </div>
   )
 }
