@@ -31,3 +31,33 @@
   color: #444;
   cursor: default;
 }
+
+code {
+  white-space: pre;
+  background-color: rgb(210, 231, 243);
+  padding: 2px 4px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+main {
+  max-width: 60em;
+  margin-inline: auto;
+}
+
+code.code-block {
+  padding: 1em;
+  box-shadow: 1px 1px 2px black;
+  background-color: rgb(166, 216, 221);
+  border-radius: 0.5em;
+}
+
+.mui-image {
+  max-width: 100%;
+}
+
+figure {
+  box-shadow: 1px 1px 2px black;
+  max-width: 50%;
+  padding: 0.5em;
+}
