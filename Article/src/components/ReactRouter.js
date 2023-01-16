@@ -4,20 +4,20 @@ export default function ReactRouter() {
   
   return (
     <div>
-      <h3>How to Set Up Router and Route to Other Components</h3>
+      <h1>How to Set Up Router and Route to Other Components</h1>
       <p>
         we'll talk about what React Router is and how to use it. Then we'll
         discuss its features and how to use them in your React app to navigate
         to and render multiple components.
       </p>
-      <h5>Prerequisites</h5>
+      <h3>Prerequisites</h3>
       <ul>
         <li>A React app</li>
         <li>A good understanding of what components are in React.</li>
 
         <li>Node.js installed.</li>
       </ul>
-      <h4>React as a Single Page Application (SPA)</h4>
+      <h2>React as a Single Page Application (SPA)</h2>
       <p>
         You need to understand how pages are rendered in a React app before
         diving into routing. This section is aimed at beginners – you can to
@@ -40,14 +40,14 @@ export default function ReactRouter() {
         application, when you navigate to a new component using React Router,
         the index.html will be rewritten with the component's logic.
       </p>
-      <h4>How to Install React Router</h4>
+      <h2>How to Install React Router</h2>
       <p>
         To install React Router, all you have to do is run npm install
         react-router-dom@6 in your project terminal and then wait for the
         installation to complete. If you are using yarn then use this command:
         yarn add react-router-dom@6.
       </p>
-      <h4>How to Set Up React Router</h4>
+      <h2>How to Set Up React Router</h2>
       <p>
         he first thing to do after installation is complete is to make React
         Router available anywhere in your app. To do this, open the index.js
@@ -59,10 +59,10 @@ export default function ReactRouter() {
         imported from react-router-dom. Now the router features are accessible
         from any part of your app.
       </p>
-      <h4>How to Route to Other Components</h4>
-      <h5>Step 1 - Create multiple components</h5>
+      <h2>How to Route to Other Components</h2>
+      <h3>Step 1 - Create multiple components</h3>
       <p>We'll create the following Home, About, and Contact components</p>
-      <h5>Step 2 - Define routes</h5>
+      <h3>Step 2 - Define routes</h3>
       <p>
         Since the App component acts as the root component where our React code
         gets rendered from initially, we will be creating all our routes in it.

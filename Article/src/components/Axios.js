@@ -4,7 +4,7 @@ import axiosImage from "../assets/axios.jpg";
 export default function Axios() {
   return (
     <div>
-      <h1 style={{ textAlign: "center" }}>Axios</h1>
+      <h1>Axios</h1>
       <br />
       <p>
         Axios is a popular JavaScript library that allows developers to make
@@ -14,7 +14,7 @@ export default function Axios() {
         what Axios is, how it works, and some of its most common use cases.
       </p>
       <br />
-      <h4>What is Axios?</h4>
+      <h2>What is Axios?</h2>
       <p>
         Axios is a promise-based HTTP client for JavaScript. It is built on top
         of the XMLHttpRequest object, which is the underlying technology used
@@ -24,7 +24,7 @@ export default function Axios() {
         interceptors, and error handling.
       </p>
       <br />
-      <h4>How Does Axios Work?</h4>
+      <h2>How Does Axios Work?</h2>
       <p>
         Axios works by creating an instance of the Axios class, which can be
         configured with various options such as the base URL, headers, and other
@@ -46,7 +46,7 @@ export default function Axios() {
         error object.
       </p>
       <br />
-      <h4>Use Cases</h4>
+      <h2>Use Cases</h2>
       <p>
         One of the most common use cases for Axios is making API calls and
         fetching data from a server. For example, you can use Axios to fetch
@@ -59,7 +59,7 @@ export default function Axios() {
         globally.
       </p>
       <br />
-      <h4>Conclusion</h4>
+      <h2>Conclusion</h2>
       <p>
         Axios is a powerful and easy-to-use library that makes it simple to make
         HTTP requests in JavaScript. It provides a consistent and intuitive API,

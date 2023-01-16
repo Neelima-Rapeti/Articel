@@ -3,7 +3,7 @@ import React from 'react'
 export default function fetch() {
   return (
     <div>
-      <h2>What is data fetching in React?</h2>
+      <h1>What is data fetching in React?</h1>
  
       <p>
          A modern full-stack app consists of two major modules: frontend and backend. We typically display interactive UI elements through the app’s frontends built with React. 

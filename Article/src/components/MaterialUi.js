@@ -3,15 +3,15 @@ import muiImage from '../assets/mui_app.png';
 
 export default function MaterialUi() {
   return (
-    <article>
-      <h2>Material UI for React</h2>
+    <div>
+      <h1>Material UI for React</h1>
       <p>
         Material UI is a popular user interface library for React. It provides a set of reusable components that follow 
         the <a href="https://m3.material.io/foundations" target="_blank" rel="noreferrer">Material Design guidelines</a>, 
         which were created by Google to provide a consistent visual language across all platforms and devices.
       </p>
       <section>
-        <h3>Getting started</h3>
+        <h2>Getting started</h2>
         <p>To start using Material UI components in your React application, run the following command: </p>
         <code className='code-block'>npm install @mui/material @emotion/react @emotion/styled</code>
         <p>Or, if you are using yarn:</p>
@@ -26,7 +26,7 @@ import '@fontsource/roboto/700.css';`}
         </code>
       </section>
       <section>
-        <h3>Create a page with an AppBar and MUI Container</h3>
+        <h2>Create a page with an AppBar and MUI Container</h2>
         <p>The main page in the Material UI application typically has appbar/toolbar fixed on the top,
             main working area in the middle, and (optionally) sidebar or footer (status bar) on the bottom of the page.
             The simplest application then looks something like this:
@@ -65,7 +65,7 @@ import '@fontsource/roboto/700.css';`}
         limits the width of the content to limit its spread on wider screens.</p>
       </section>
       <section>
-        <h3>Component layout with Grid</h3>
+        <h2>Component layout with Grid</h2>
         <p>Material UI for React uses similar system to the Bootstrap UI, where it provides a layout container that splits the available width
           into 12 identical columns. In Material UI, <code>&lt;Grid&gt;</code> component is used for this purpose. A typical usage of <code>&lt;Grid&gt;</code>&nbsp;
           looks something like this:
@@ -88,7 +88,7 @@ import '@fontsource/roboto/700.css';`}
         </ol>
       </section>
       <section>
-        <h3>MUI Customization</h3>
+        <h2>MUI Customization</h2>
         <p>There are multiple ways to customize the look and feel of Material UI components. First of all, you can customize the theme using <code>createTheme()</code>
         function, that will create a theme object for you that you can apply to the application with the <code>&lt;ThemeProvider&gt;</code>component. This
         will allow you to set your own color pallete, text styles, layout breakpoints and other such variables. You can also use the theme
@@ -132,7 +132,7 @@ export default function StyledCustomization() {
         <p>As you can see, Material UI for React provides a lot of options for customization for every use case.</p>
       </section>
       <section>
-        <h3>Conclusion</h3>
+        <h2>Conclusion</h2>
         <figure>
           <img src={muiImage} alt='app build with Material UI' className='mui-image'></img>
           <figcaption>Meme generator app built with MaterialUI components.</figcaption>
@@ -147,6 +147,6 @@ export default function StyledCustomization() {
           it a great choice for building user interfaces with React.
         </p>
       </section>
-    </article>
+    </div>
   )
 }
