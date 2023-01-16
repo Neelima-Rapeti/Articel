@@ -50,6 +50,7 @@ code.code-block {
   box-shadow: 1px 1px 2px black;
   background-color: rgb(166, 216, 221);
   border-radius: 0.5em;
+  width: 100%;
 }
 
 .mui-image {
