@@ -1,5 +1,6 @@
 import React from 'react';
 import muiImage from '../assets/mui_app.png';
+import SyntaxHighlighter from 'react-syntax-highlighter';
 
 export default function MaterialUi() {
   return (
@@ -19,11 +20,11 @@ export default function MaterialUi() {
         <p>It is also advised to install Roboto font. Material UI components were created to be used with it.</p>
         <code className='code-block'>npm install @fontsource/roboto</code>
         <p>For this to take effect, you will also need to add these import statements to the index.js file of your application:</p>
-        <code className='code-block'>{`import '@fontsource/roboto/300.css';
+        <SyntaxHighlighter codeTagProps={{className: 'code-block'}} useInlineStyles={false}>{`import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';`}
-        </code>
+        </SyntaxHighlighter>
       </section>
       <section>
         <h2>Create a page with an AppBar and MUI Container</h2>
@@ -31,7 +32,7 @@ import '@fontsource/roboto/700.css';`}
             main working area in the middle, and (optionally) sidebar or footer (status bar) on the bottom of the page.
             The simplest application then looks something like this:
         </p>
-        <code className='code-block'>{`export default function App() {
+        <SyntaxHighlighter codeTagProps={{className: 'code-block'}} useInlineStyles={false}>{`export default function App() {
   return (
     <>
       <CssBaseline />
@@ -49,7 +50,7 @@ import '@fontsource/roboto/700.css';`}
     </>
   );
 }`}
-        </code>
+        </SyntaxHighlighter>
         <p> There are several things that you can notice in this small snippet. First of all, <code>&lt;Typography&gt;</code> is used for all the text blocks.
         This component has a limited set of variants for the text styling, making sure that all text is styled consistently across the application. You can 
         find all the different variants in the <a href="https://mui.com/material-ui/react-typography/" target="_blank" rel="noreferrer">API documentation</a></p>
@@ -70,7 +71,7 @@ import '@fontsource/roboto/700.css';`}
           into 12 identical columns. In Material UI, <code>&lt;Grid&gt;</code> component is used for this purpose. A typical usage of <code>&lt;Grid&gt;</code>&nbsp;
           looks something like this:
         </p>
-        <code className='code-block'>{`<Grid container spacing={1}>
+        <SyntaxHighlighter codeTagProps={{className: 'code-block'}} useInlineStyles={false}>{`<Grid container spacing={1}>
   <Grid item xs={12} md={6}>
     item one
   </Grid>
@@ -78,7 +79,7 @@ import '@fontsource/roboto/700.css';`}
     item two
   </Grid>
 </Grid>`}
-        </code>
+        </SyntaxHighlighter>
         <p>There are 2 things you can notice here:</p>
         <ol>
           <li><code>&lt;Grid&gt;</code> takes the roles of both container and contained item. Which one it is, is determined by the props <code>container</code> and <code>item</code></li>
@@ -95,7 +96,7 @@ import '@fontsource/roboto/700.css';`}
         variables in your own components with the <code>useTheme()</code> hook.</p>
         <p>Another option is to use <code>sx</code> prop that exists on every Material UI component. It is like the <code>style</code> prop and
         allows you to specify inline styling, with the advantage of extended CSS syntax. For example, this SASS-like styling is possible:</p>
-        <code className='code-block'>
+        <SyntaxHighlighter codeTagProps={{className: 'code-block'}} useInlineStyles={false}>
 {`<Slider
   defaultValue={30}
   sx={{
@@ -107,10 +108,10 @@ import '@fontsource/roboto/700.css';`}
   }}
 />
 `}
-        </code>
+        </SyntaxHighlighter>
         <p> If you find yourself using the same styles for your components again and again, you can take advantage of the <code>styled()</code>
         function to create a new component that encapsulates your preferred style:</p>
-        <code className='code-block'>
+        <SyntaxHighlighter codeTagProps={{className: 'code-block'}} useInlineStyles={false}>
 {`const SuccessSlider = styled(Slider)<SliderProps>(({ theme }) => ({
   width: 300,
   color: theme.palette.success.main,
@@ -128,7 +129,7 @@ export default function StyledCustomization() {
   return <SuccessSlider defaultValue={30} />;
 }
 `}
-        </code>
+        </SyntaxHighlighter>
         <p>As you can see, Material UI for React provides a lot of options for customization for every use case.</p>
       </section>
       <section>
